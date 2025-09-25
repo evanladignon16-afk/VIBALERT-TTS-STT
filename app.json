@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "VIBALERT",
+    "slug": "vibalert",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.juliusquintas014.vibalert"
+    },
+    "android": {
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.VIBRATE",
+        "android.permission.INTERNET"
+      ],
+      "package": "com.juliusquintas014.vibalert"
+    },
+    "plugins": [
+      "expo-dev-client"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "8b1922e8-24dd-4154-90cc-f261108688dd"
+      }
+    }
+  }
+}
